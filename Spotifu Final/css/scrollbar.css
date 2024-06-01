@@ -1,0 +1,31 @@
+::-webkit-scrollbar {
+    /* background: red; */
+    inline-size: .5rem;
+}
+
+/* ::-webkit-scrollbar-button {
+    background: blue;
+} */
+
+::-webkit-scrollbar-thumb {
+    background: var(--gray60);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--gray50);
+}
+
+/* Para personalizar el estilo de los "thumb" de los scrolls horizontales:
+::-webkit-scrollbar-thumb:horizontal {
+    background: pink;
+}
+
+Para personalizar el estilo de los "thumb" de los scrolls verticales:
+::-webkit-scrollbar-thumb:vertical {
+    background: black;
+}
+
+Para personalizar el estilo de scroll que corresponda al componente de playlist:
+.playlistList-container::-webkit-scrollbar-thumb:horizontal {
+    background: gray;
+} */

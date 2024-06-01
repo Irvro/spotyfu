@@ -1,0 +1,24 @@
+.user {
+    display: flex;
+    gap: 1rem;
+}
+
+.user-register {
+    background-color: var(--gray50);
+    height: 40px;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    border-radius: 100px;
+    border-style: none;
+    color: var(--white);
+}
+
+.user-login {
+    background-color: var(--white);
+    height: 40px;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    border-radius: 100px;
+    border-style: none;
+    color: var(--gray60);
+}

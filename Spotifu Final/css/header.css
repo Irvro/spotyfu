@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    gap: 1rem;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    padding-block-start: 1.5rem;
+    padding-block-end: 1.5rem;
+    backdrop-filter: blur(2px) ;
+    margin-inline: -2rem;
+}
+
+.header-nouser {
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    padding-block-start: 1.5rem;
+    padding-block-end: 1.5rem;
+    backdrop-filter: blur(2px) ;
+    margin-inline: -2rem;
+}
+
+@supports not(backdrop-filter: blur(2px)) {
+    .header {
+        background:black;
+    }
+}

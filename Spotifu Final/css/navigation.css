@@ -1,0 +1,18 @@
+.navigation button {
+    inline-size: 1.875rem;
+    block-size: 1.875rem;
+    border-radius: 50%;
+    border: none;
+    background: var(--gray60);
+    color: var(--gray10);
+}
+
+.navigation button:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+.navigation {
+    flex-shrink: 0;
+}
+

@@ -1,0 +1,36 @@
+.nowPlaying {
+    display: flex;
+    gap: .5rem;
+}
+
+.nowPlaying-details {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nowPlaying-description {
+    display: grid;
+    grid-gap: .25rem;
+
+}
+
+.nowPlaying-thumbnail {
+    inline-size: 3.5rem;
+    block-size: 3.5rem;
+}
+
+.nowPlaying-audio {
+    color: var(--white);
+    font: var(--baseFontBold);
+    text-decoration: none;
+    display: block;
+}
+
+.nowPlaying-creator {
+    color: var(--grey10);
+    font: var(--small);
+    text-decoration: none;
+    display: block;
+
+}

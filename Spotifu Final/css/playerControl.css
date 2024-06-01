@@ -1,0 +1,15 @@
+.playerControl {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    /* border: 1px solid red; */
+
+
+}
+
+.playerControl-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    /* border: 1px solid green; */
+}
